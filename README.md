@@ -27,6 +27,27 @@ This repository contains the structured data collected during the survey, which 
 
 ---
 
+## Usage
+
+You can easily explore the data using Python and pandas:
+
+```python
+# Comment out below to download (inside a notebook)
+#!git clone https://github.com/greek-nlp/survey.git
+#%cd survey
+import pandas as pd
+
+articles = pd.read_csv("greek_nlp_articles.csv")
+datasets = pd.read_csv("greek_nlp_datasets.csv")
+
+print("Articles:", articles.shape)
+print(articles.shape)
+
+print("Datasets:", datasets.shape)
+print(datasets.shape)
+datasets.sample(3)
+```
+
 ## Citation
 
 If you use this resource, please cite the paper:
