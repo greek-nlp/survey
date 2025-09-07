@@ -1,13 +1,10 @@
 # A Systematic Survey of Natural Language Processing for the Greek Language
 
-This is the repository accompanying the paper:
+This is the repository accompanying the paper: **A systematic survey of natural language processing for the Greek language**  by Juli Bakagianni, Kanella Pouli, Maria Gavriilidou, John Pavlopoulos, published at *Patterns, 2025*  [📄 Open-access article](https://www.cell.com/patterns/fulltext/S2666-3899(25)00161-8)
 
-**A systematic survey of natural language processing for the Greek language**  
-Juli Bakagianni, Kanella Pouli, Maria Gavriilidou, John Pavlopoulos  
-*Patterns, 2025*  
-[📄 Open-access article](https://www.cell.com/patterns/fulltext/S2666-3899(25)00161-8)
-
----
+<p align="center">
+    <img src="https://raw.githubusercontent.com/greek-nlp/survey/refs/heads/main/survey.nlp.gr.svg" alt="Greek NLP Survey" width="250"/>
+</p>
 
 ## Overview
 
