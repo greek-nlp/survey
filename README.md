@@ -1,38 +1,43 @@
-# Towards Systematic Monolingual NLP Surveys: GenA of Greek NLP
+# A Systematic Survey of Natural Language Processing for the Greek Language
 
-Natural Language Processing (NLP) research has traditionally been predominantly focused on English,
-driven by the availability of resources, the size of the research community, and market demands. Recently,
-there has been a noticeable shift towards multilingualism in NLP, recognizing the need for inclusivity and
-effectiveness across diverse languages and cultures. Monolingual surveys have the potential to complement
-the broader trend towards multilingualism in NLP by providing foundational insights and resources necessary 
-for effectively addressing the linguistic diversity of global communication. However, monolingual
-NLP surveys are extremely rare in literature. This study introduces a method for creating systematic and
-comprehensive monolingual NLP surveys, aimed at optimizing the process of constructing such surveys
-and thoroughly addressing a language’s NLP capabilities. Characterized by a structured search protocol,
-our method can be used to select publications and organize them through a taxonomy of NLP tasks.
-We include a classification of Language Resources (LRs), according to their availability, and datasets,
-according to their annotation, to highlight publicly-available and machine-actionable LRs. By applying
-our method on Greek NLP from 2012 to 2023, we provide a comprehensive overview of the current state
-and challenges of Greek NLP research. We discuss the progress of Greek NLP and outline encountered Greek
-LRs, classified by availability and usability. As we show, our proposed method helps avoid common pitfalls,
-such as data leakage and contamination, and to assess language support per NLP task. The presented
-systematic literature review of Greek NLP serves as an application of our method that showcases the benefits
-of monolingual NLP surveys more broadly. Although the time-demanding nature of a literature review
-prevents of us repeating our application for another language, we consider that applications of our method
-can be considered for the myriads of languages whose progress in NLP lags behind that of well-supported
-languages. Similar applications could be considered for the myriads of languages whose progress in NLP
-lags behind that of well-supported languages.
+This is the repository accompanying the paper:
+
+**A systematic survey of natural language processing for the Greek language**  
+Juli Bakagianni, Kanella Pouli, Maria Gavriilidou, John Pavlopoulos  
+*Patterns, 2025*  
+[📄 Open-access article](https://www.cell.com/patterns/fulltext/S2666-3899(25)00161-8)
 
 ---
 
-Please cite as:
+## Overview
 
-```
-@article{bakagianni2024towards,
-  title={Towards Systematic Monolingual NLP Surveys: GenA of Greek NLP},
+Comprehensive monolingual natural language processing (NLP) surveys are essential for assessing language-specific challenges, resource availability, and research gaps. This work introduces a generalizable framework for systematic monolingual NLP surveys, applied here to Greek NLP (2012–2023).  
+
+This repository contains the structured data collected during the survey, which is continuously updated to provide an evergreen resource for the community.
+
+---
+
+## Contents
+
+- **`greek_nlp_articles.csv`**  
+  A curated list of research articles (2012–2023) relevant to Greek NLP, including metadata such as title, year, venue, and task coverage.
+
+- **`greek_nlp_datasets.csv`**  
+  A catalog of datasets used in Greek NLP research, annotated with task type, availability, and other key attributes.
+
+---
+
+## Citation
+
+If you use this resource, please cite the paper:
+
+```bibtex
+@article{bakagianni2025systematic,
+  title={A systematic survey of natural language processing for the Greek language},
   author={Bakagianni, Juli and Pouli, Kanella and Gavriilidou, Maria and Pavlopoulos, John},
-  journal={arXiv preprint arXiv:2407.09861},
-  year={2024}
+  journal={Patterns},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
